@@ -1,8 +1,8 @@
 package restcontrollers
 
 import (
-	"github.com/carvalhorr/protoc-gen-mock/stub"
 	log "github.com/sirupsen/logrus"
+	"github.com/sradevski/protoc-gen-mock/stub"
 	"net/http"
 )
 

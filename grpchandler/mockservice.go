@@ -3,8 +3,8 @@ package grpchandler
 import (
 	"context"
 	"fmt"
-	"github.com/carvalhorr/protoc-gen-mock/stub"
 	"github.com/golang/protobuf/proto"
+	"github.com/sradevski/protoc-gen-mock/stub"
 	"github.com/stretchr/stew/slice"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

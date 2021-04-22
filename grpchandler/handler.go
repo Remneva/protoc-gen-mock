@@ -3,8 +3,8 @@ package grpchandler
 import (
 	"context"
 	"fmt"
-	"github.com/carvalhorr/protoc-gen-mock/stub"
 	log "github.com/sirupsen/logrus"
+	"github.com/sradevski/protoc-gen-mock/stub"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 )

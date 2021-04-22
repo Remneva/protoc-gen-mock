@@ -1,4 +1,4 @@
-module github.com/carvalhorr/protoc-gen-mock
+module github.com/sradevski/protoc-gen-mock
 
 go 1.13
 

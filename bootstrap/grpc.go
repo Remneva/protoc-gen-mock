@@ -2,8 +2,8 @@ package bootstrap
 
 import (
 	"fmt"
-	"github.com/carvalhorr/protoc-gen-mock/grpchandler"
 	log "github.com/sirupsen/logrus"
+	"github.com/sradevski/protoc-gen-mock/grpchandler"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"

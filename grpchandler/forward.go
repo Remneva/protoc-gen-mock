@@ -2,8 +2,8 @@ package grpchandler
 
 import (
 	"context"
-	"github.com/carvalhorr/protoc-gen-mock/stub"
 	log "github.com/sirupsen/logrus"
+	"github.com/sradevski/protoc-gen-mock/stub"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

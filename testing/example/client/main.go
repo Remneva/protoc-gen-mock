@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/carvalhorr/protoc-gen-mock/bootstrap"
-	greetermock "github.com/carvalhorr/protoc-gen-mock/greeter-service"
-	"github.com/carvalhorr/protoc-gen-mock/grpchandler"
-	"github.com/carvalhorr/protoc-gen-mock/stub"
+	"github.com/sradevski/protoc-gen-mock/bootstrap"
+	greetermock "github.com/sradevski/protoc-gen-mock/greeter-service"
+	"github.com/sradevski/protoc-gen-mock/grpchandler"
+	"github.com/sradevski/protoc-gen-mock/stub"
 )
 
 func main() {

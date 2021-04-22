@@ -3,9 +3,9 @@ package restcontrollers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/carvalhorr/protoc-gen-mock/grpchandler"
-	"github.com/carvalhorr/protoc-gen-mock/stub"
 	log "github.com/sirupsen/logrus"
+	"github.com/sradevski/protoc-gen-mock/grpchandler"
+	"github.com/sradevski/protoc-gen-mock/stub"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/encoding/protojson"

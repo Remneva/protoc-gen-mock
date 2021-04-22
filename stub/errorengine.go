@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/sha1"
 	"fmt"
-	"github.com/carvalhorr/protoc-gen-mock/util"
+	"github.com/sradevski/protoc-gen-mock/util"
 	"io"
 	"io/ioutil"
 	"os"
