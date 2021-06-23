@@ -3,6 +3,9 @@ package restcontrollers
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
+	"net/http"
+
 	log "github.com/sirupsen/logrus"
 	"github.com/sradevski/protoc-gen-mock/grpchandler"
 	"github.com/sradevski/protoc-gen-mock/stub"
@@ -10,8 +13,6 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
-	"io/ioutil"
-	"net/http"
 )
 
 const (

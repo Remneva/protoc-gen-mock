@@ -99,15 +99,8 @@ func isJsonValid(t protoreflect.MessageDescriptor, json map[string]interface{}, 
 				_, subTypeErrorMessages := isJsonValid(field.Message(), element.(map[string]interface{}), baseName+"."+jsonName)
 				errorMessages = append(errorMessages, subTypeErrorMessages...)
 			case field.Kind() == protoreflect.EnumKind:
-				found := false
-				for i := 0; i < field.Enum().Values().Len(); i++ {
-					value := field.Enum().Values().Get(i)
-					if value == element {
-						found = true
-						break // TODO make sure break is leaving the for loop
-					}
-				}
-				if !found {
+				enum := field.Enum().Values().Get(int(element.(float64)))
+				if enum == nil {
 					// TODO implement the correct names
 					errorMessages = append(errorMessages, fmt.Sprintf("Value '%s' is not valid for field '%s.%s'. Possible values are '%s'.", element, baseName, jsonName, field.Enum().ReservedNames()))
 				}
